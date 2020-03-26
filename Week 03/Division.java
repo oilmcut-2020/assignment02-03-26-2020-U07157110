@@ -2,7 +2,7 @@
  * Addition
  */
 import java.util.Scanner;
-public class Addition {
+public class Division {
 
     public static void main(String[] args) {
         int number1;
@@ -13,7 +13,7 @@ public class Addition {
         number1 = input.nextInt();
         System.out.print("Enter second integer: ");
         number2 = input.nextInt();
-        System.out.printf("Sum is %d%n", number1+number2);
+        System.out.printf("Sum is %d%n", number1/number2);
         input.close();
     }
     
